@@ -1,0 +1,36 @@
+* {
+    background-color: #202125;
+}
+
+.header {
+    box-sizing: border-box;
+    max-width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.header>span {
+    border-radius: 50%;
+}
+
+.header>a,
+span {
+    background-color: rgba(red, green, blue, 0);
+    padding: 2px;
+    padding: 2px;
+    color: white;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.header>span:hover {
+    background-color: gray;
+}
+
+.header>a:hover {
+    border-bottom: 1px solid white;
+}
